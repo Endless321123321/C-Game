@@ -39,11 +39,6 @@ class Program
             Console.Write(" Аудитория выбрала ответ:" + random1 + "\n");
             goto Start;
         }
-        else if (Convert.ToInt32(additionScore) >= limit)
-        {
-            Console.WriteLine("Поздравляю вас!!!\nВы выйграли денежный приз, он составляет:" + additionScore);
-            Thread.Sleep(2500);
-        }
         else
         {
             Console.Write($"Вы проиграли. Ваш счёт: {money}\n Давайте начнем сначала :3");
